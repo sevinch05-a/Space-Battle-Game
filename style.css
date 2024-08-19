@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url('https://wallpapercave.com/wp/wp3284839.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+#rocket {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.bullet {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    background: red;
+}
+.stone {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url('https://pngimg.com/uploads/stone/stone_PNG13596.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+button {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#startBtn {
+    left: 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+#restartBtn {
+    right: 100px;
+    background-color: #F44336; /* Red */
+    color: white;
+}
+#retreatBtn {
+    right: 20px;
+    background-color: #FF8C00; /* Orange */
+    color: white;
+}
+#score, #level {
+    position: absolute;
+    top: 20px;
+    font-size: 24px;
+    color: aliceblue;
+}
+#score {
+    left: 20px;
+}
+#level {
+    right: 20px;
+}

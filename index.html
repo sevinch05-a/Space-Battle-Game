@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Battle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="stone"></div>
+        <img id="rocket" src="https://cdn.pixabay.com/animation/2022/07/31/06/27/06-27-17-124_512.gif" alt="Rocket">
+        <div id="button">
+            <button id="startBtn">Start</button>
+            <button id="restartBtn">Restart</button>
+            <button id="retreatBtn">Retreat</button>
+        </div>
+        <div id="score">Score: 0</div>
+        <div id="level">Level: 1</div>
+    </div>
+
+    <audio id="shootSound" src="sound/laser-shot-ingame-230500.mp3" preload="auto"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
